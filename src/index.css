@@ -1,0 +1,53 @@
+.input-heading{
+  border: none;
+  background-color: rgba(255, 255, 255, 0.651);
+  font-size: 20px;
+  font-weight: bold;
+  outline: none;
+  display: inline;
+  padding: 5px 0px  10px 20px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.sun-moon{
+  background-color: transparent;
+  position: relative;
+  top: -20px;
+  left: 100%;
+}
+/* styles.css */
+
+/* Light mode styles */
+body.light-mode {
+  background-color: #ffffff;
+  color: #212529;
+}
+body.light-mode .container-bg {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.alert.light-mode {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+
+/* Dark mode styles */
+body.dark-mode {
+  background-color: #212529;
+  color: #f8f9fa;
+}
+
+.alert.dark-mode {
+  background-color: #343a40;
+  color: #f8f9fa;
+}
+
+body.dark-mode .container-bg {
+  background-color: #454545;
+  padding: 20px;
+  border-radius: 10px;
+}
